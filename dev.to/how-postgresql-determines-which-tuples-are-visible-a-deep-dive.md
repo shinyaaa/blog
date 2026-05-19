@@ -1,6 +1,6 @@
 ---
 title: "How PostgreSQL Determines Which Tuples Are Visible: A Deep Dive"
-published_at: draft
+published: false
 tags: postgres
 ---
 

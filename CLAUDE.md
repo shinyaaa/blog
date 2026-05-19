@@ -53,16 +53,16 @@ published_at: "2023-04-24 20:12"   # 公開済みの場合
 ```yaml
 ---
 title: "5 PostgreSQL Locking Behaviors That Trip People Up"
-published: false
-description: ""
+published_at: 2023-04-24          # Zenn の公開日（YYYY-MM-DD）を引き継ぐ
 tags: postgresql, database
-cover_image: ""       # 任意
 ---
 ```
 
 - `topics`（Zenn）→ `tags`（dev.to、カンマ区切り・最大4個）。
-- `emoji` / `type` / `published_at` は dev.to には無いので削除する。
-- dev.to は `published: false` の記事を下書きとして扱う。
+- `published_at`（Zenn）→ `published_at`（dev.to）。日付部分のみ `YYYY-MM-DD` 形式で引き継ぐ。
+- `emoji` / `type` は dev.to には無いので削除する。
+- 下書きは `published_at` の代わりに `published: false` を指定する（`published` を省略した場合も下書き扱い）。
+- `description` / `cover_image` は任意。書く場合のみ追加する。
 
 ## 執筆時の注意
 
