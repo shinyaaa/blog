@@ -6,7 +6,8 @@ topics:
   - "postgresql"
   - "database"
   - "lock"
-published: false
+published: true
+published_at: 2026-05-27 05:00
 ---
 
 # PostgreSQLのロックでハマりがちな挙動5選
